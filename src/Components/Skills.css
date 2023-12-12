@@ -1,0 +1,165 @@
+.body2 {
+  background: linear-gradient(to bottom, #7d47a0 0%, #3944aa 100%);
+  max-height: 460px;
+  padding: 100px 75px 100px 75px;
+}
+
+.container2 {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main2 {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.932);
+  padding-top: 40px;
+  text-shadow: 2px 2px 4px rgb(51, 86, 163);
+}
+
+.aboutme {
+  font-size: 18px;
+  font-weight: 450;
+  color: rgb(248, 248, 248);
+}
+
+.tech {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(248, 248, 248);
+  padding-top: 150px;
+}
+
+.container2 img.python,
+.container2 img.react {
+  vertical-align: baseline;
+}
+
+a:hover img {
+  filter: brightness(50%);
+}
+
+.image-container,
+.image-container1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 35%;
+}
+
+.image-container1 {
+  background-color: rgb(26, 26, 26);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .body2 {
+    padding: 50px;
+  }
+
+  .main2 {
+    font-size: 30px;
+  }
+
+  .aboutme {
+    font-size: 16px;
+  }
+
+  .tech {
+    font-size: 16px;
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .body2 {
+    padding: 30px;
+  }
+
+  .main2 {
+    font-size: 24px;
+  }
+
+  .aboutme {
+    font-size: 14px;
+  }
+
+  .tech {
+    font-size: 14px;
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .body2 {
+    padding: 50px 25px;
+  }
+
+  .container2 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .main2 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+
+  .aboutme {
+    font-size: 16px;
+  }
+
+  .tech {
+    font-size: 16px;
+    padding-top: 100px;
+  }
+
+  .image-container,
+  .image-container1 {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .body2 {
+    padding: 40px 15px;
+    max-height: none;
+  }
+
+  .container2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .main2 {
+    font-size: 28px;
+    padding-top: 10px;
+  }
+
+  .aboutme {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .tech {
+    font-size: 14px;
+    padding-top: 40px;
+  }
+
+  .i-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .image-container,
+  .image-container1 {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+}
